@@ -17,6 +17,7 @@
       <button
         type="button"
         class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+        onclick="getColor()"
       >
         Pick Your Color
       </button>
@@ -44,7 +45,7 @@
         </div>
         <input
           type="text"
-          id="voice-search"
+          id="color-field"
           class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
           placeholder="Color code.."
           required
@@ -54,5 +55,7 @@
 
     <!-- Flowbite JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/app.js"></script>
   </body>
 </html>
